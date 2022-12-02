@@ -1,7 +1,7 @@
 def main():
     data = []
     final = []
-    with open("C:/Users/thoma/Documents/PythonProjects/Day1/input.txt") as my_file:
+    with open("input.txt") as my_file:
         my_file = my_file.read().split("\n\n")
         data = list(map(lambda x: x.split("\n"), my_file))
     
