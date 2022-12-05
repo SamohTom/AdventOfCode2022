@@ -2,7 +2,7 @@ def main():
     data = []
     mistakes = []
     final = 0
-    with open("input.txt") as my_file:
+    with open("Day3/input.txt") as my_file:
         data = my_file.read().split("\n")
 
     for backpack in data:

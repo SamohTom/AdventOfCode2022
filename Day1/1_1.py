@@ -1,7 +1,7 @@
 def main():
     data = []
     final = []
-    with open("input.txt") as my_file:
+    with open("Day1/input.txt") as my_file:
         my_file = my_file.read().split("\n\n")
         data = list(map(lambda x: x.split("\n"), my_file))
     

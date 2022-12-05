@@ -6,7 +6,7 @@ def main():
         "B" : 2,
         "C" : 3,
     }
-    with open("input.txt") as my_file:
+    with open("Day2/input.txt") as my_file:
         data = my_file.read().split("\n")
     
     for match in data:
